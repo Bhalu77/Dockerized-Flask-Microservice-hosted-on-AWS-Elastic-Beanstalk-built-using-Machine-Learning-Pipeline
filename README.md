@@ -12,3 +12,7 @@ Then I deployed the docker image to Amazon Web Services Elastic Beanstalk using 
 - Initiate Elastic Beanstalk: eb init -p docker [Application Name]
 - Run locally to see if it works properly before Deployment: eb local run --port 5000 [You can use whatever port you're using]
 - Create Elastic Beanstalk Environment: eb create [Enivironment Name]-env
+
+**Now the environment is created as you can see below**:
+
+<img width="1440" alt="AWS Elastic Beanstalk" src="https://user-images.githubusercontent.com/86623567/203917314-c2da5361-bf70-4564-ba25-18f8d68ae3a7.png">
