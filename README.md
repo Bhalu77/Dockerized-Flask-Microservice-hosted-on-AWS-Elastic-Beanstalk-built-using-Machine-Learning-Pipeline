@@ -10,7 +10,7 @@ I made a flask application out of the machine learning pipeline and then dockeri
 Then I deployed the docker image to Amazon Web Services Elastic Beanstalk using the cli commands:
 - Install Elastic Beanstalk Cli: pip install awsebcli
 - Initiate Elastic Beanstalk: eb init -p docker [Application Name]. 
-- I have used region eu-west-3 which is Paris but you can use whichever region is closest to you. You can edit this in .elasticbeanstalk
+- I have used region eu-west-3 which is Paris but you can use whichever region is closest to you. You can edit this in .elasticbeanstalk folder in the configure.yml file which is created after eb init (initialization) command.
 - Run locally to see if it works properly before Deployment: eb local run --port 5000 [You can use whatever port you're using]
 - Create Elastic Beanstalk Environment: eb create [Enivironment Name]-env
 
